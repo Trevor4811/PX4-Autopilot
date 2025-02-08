@@ -10,6 +10,7 @@ param set-default BAT2_V_DIV 18.1
 param set-default BAT1_A_PER_V 36.367515152
 param set-default BAT2_A_PER_V 36.367515152
 
+# battery config
 param set BAT1_N_CELLS 6
 param set BAT1_V_EMPTY 3.6
 param set BAT1_V_CHARGED 4.05
@@ -21,3 +22,6 @@ param set RC_CRSF_TEL_EN 1
 # esp32 telemetry radio
 param set SER_TEL2_BAUD 921600
 param set MAV_1_CONFIG 102
+
+# rc control tuning
+param set MPC_MAN_TILT_MAX 89

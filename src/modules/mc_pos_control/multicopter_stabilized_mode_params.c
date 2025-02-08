@@ -36,7 +36,7 @@
  *
  * @unit deg
  * @min 1
- * @max 70
+ * @max 89
  * @decimal 0
  * @increment 1
  * @group Multicopter Position Control
