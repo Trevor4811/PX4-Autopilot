@@ -13,3 +13,7 @@ param set-default BAT2_A_PER_V 36.367515152
 # use crossfire for elrs receiver on telem1
 param set RC_CRSF_PRT_CFG 101
 param set RC_CRSF_TEL_EN 1
+
+# esp32 telemetry radio
+param set SER_TEL2_BAUD 921600
+param set MAV_1_CONFIG 102
