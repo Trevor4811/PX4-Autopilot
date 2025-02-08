@@ -25,3 +25,7 @@ param set MAV_1_CONFIG 102
 
 # rc control tuning
 param set MPC_MAN_TILT_MAX 89
+
+# sd logging
+param set SDLOG_MODE 0
+param set SDLOG_PROFILE 67
