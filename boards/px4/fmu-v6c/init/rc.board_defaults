@@ -10,6 +10,10 @@ param set-default BAT2_V_DIV 18.1
 param set-default BAT1_A_PER_V 36.367515152
 param set-default BAT2_A_PER_V 36.367515152
 
+param set BAT1_N_CELLS 6
+param set BAT1_V_EMPTY 3.6
+param set BAT1_V_CHARGED 4.05
+
 # use crossfire for elrs receiver on telem1
 param set RC_CRSF_PRT_CFG 101
 param set RC_CRSF_TEL_EN 1
