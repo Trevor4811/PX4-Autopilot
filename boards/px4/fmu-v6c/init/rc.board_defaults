@@ -29,3 +29,13 @@ param set MPC_MAN_TILT_MAX 89
 # sd logging
 param set SDLOG_MODE 0
 param set SDLOG_PROFILE 67
+
+# set controller flight modes
+param set COM_FLTMODE1 2
+param set COM_FLTMODE4 0
+param set COM_FLTMODE6 6
+
+# RC channel maps
+param set RC_MAP_FLTMODE 7
+param set RC_MAP_ARM_SW 8
+param set RC_MAP_KILL_SW 5
